@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(false);
 
         // Use remote resource
-        mWebView.loadUrl("https://avfee.prismhr.com/avf.demo/cmd/login");
+        mWebView.loadUrl("https://example.com");
 
         // Stop local links and redirects from opening in browser instead of WebView
         // mWebView.setWebViewClient(new MyAppWebViewClient());
